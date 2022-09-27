@@ -1,0 +1,14 @@
+body{
+    background: rgb(191, 191, 191);
+    position: center;
+}
+
+
+
+#title{
+   color: rgba(84, 47, 175, 0.15);
+    font-size:6rem;
+    font-weight: 900;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
