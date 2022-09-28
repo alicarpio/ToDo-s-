@@ -1,6 +1,6 @@
 body{
     background: rgb(191, 191, 191, 0.23);
-    width: auto;
+
 
 }
 header{
@@ -10,13 +10,23 @@ header{
 
 }
 
+/* FORM PRINCIPAL */
 .toDoBox{
-    margin-top: 1.2rem;
-    border: 5px solid white;
-    width: 21rem;
-    box-shadow: 1px 3px 3px rgba(0,0,0,0.09);
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    border: 4px solid white;
+    width: 21.8rem;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.13);
 }
 
+/* INPUT PRINCIPAL */
+#uniqueToDo{
+    padding: 8px 15px 8px 33px;
+    border: none;
+    width: 18.8rem;
+    font-size: 1rem;
+}
 
 ::-moz-placeholder{
     color: rgba(74, 73, 73, 0.75);
@@ -24,19 +34,17 @@ header{
     font-style: italic;
 }
 
-#uniqueToDo{
-    padding: 8px 15px 8px 33px;
-    border: none;
-    width: 18rem;
-    font-size: 1rem;
-}
-
 
 #title{
    color: rgba(84, 47, 175, 0.15);
-    font-size:3.4rem;
+    font-size:3.6rem;
     font-weight: 900;
     font-family: 'Merriweather Sans', sans-serif;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+}
+
+.icon-angle-down{
+    color: rgba(77, 77, 77, 0.19);
+    background: white;
 }
 
