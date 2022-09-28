@@ -1,14 +1,42 @@
 body{
-    background: rgb(191, 191, 191);
-    position: center;
+    background: rgb(191, 191, 191, 0.23);
+    width: auto;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
+.toDoBox{
+    margin-top: 1.2rem;
+    border: 5px solid white;
+    width: 21rem;
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.09);
+}
+
+
+::-moz-placeholder{
+    color: rgba(74, 73, 73, 0.75);
+    opacity: 0.1;
+    font-style: italic;
+}
+
+#uniqueToDo{
+    padding: 8px 15px 8px 33px;
+    border: none;
+    width: 18rem;
+    font-size: 1rem;
+}
 
 
 #title{
    color: rgba(84, 47, 175, 0.15);
-    font-size:6rem;
+    font-size:3.4rem;
     font-weight: 900;
     font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 2rem;
 }
 
