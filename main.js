@@ -4,10 +4,12 @@ let myStorage = window.localStorage;
 
 
 todoBoxInput.addEventListener("keypress", e => {
-    if (e.key === "Enter") {
+    const text = todoBoxInput.value;
+
+    if (e.key === "Enter" && text !== '') {
         e.preventDefault();
 
-        const text = todoBoxInput.value;
+
 
         const li = document.createElement("li");
         const divcheckbox = document.createElement("div");
@@ -22,8 +24,10 @@ todoBoxInput.addEventListener("keypress", e => {
 
         ulist.appendChild(li);
 
+
         todoBoxInput.value = '';
     }
+
 });
 
 function addDeleteIcon() {
