@@ -2,10 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Todo's</title>
+    <title>Todo's App</title>
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" href="reset.css">
@@ -16,27 +13,50 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
 
-    <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap" rel="stylesheet">
+
+
+    <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"-->
+<!--          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="-->
+<!--          crossorigin="anonymous" referrerpolicy="no-referrer"/>-->
 
 </head>
 
 <body>
-<header>
-    <h1 id="title">todos</h1>
-    <form class="toDoBox">
-        <div class="icon-angle-down">
-            <i class="fa-solid fa-chevron-down"></i>
+    <header>
+        <h1 id="title">todos</h1>
+        <form class="toDoBox">
+            <input id="todo-input" type="text" placeholder="What needs to be done?"/>
+        </form>
+    </header>
+
+
+    <section class="todo-app">
+        <ul id="todo-list">
+
+        </ul>
+    </section>
+
+    <section class="todosStates">
+
+    </section>
+
+    <footer>
+        <div>
+            <p>Double-click to edit a todo</p>
         </div>
-        <input id="uniqueToDo" type="text" placeholder="What needs to be done?" />
-    </form>
+        <div>
+            <p>Credits: Alina Carpio inspired by James Thomas, Ed Chatelain and Akira Sudoh</p>
+        </div>
+    </footer>
 
-</header>
-
-
-
-<footer>
-
-</footer>
+    <script src="main.js"></script>
 </body>
 </html>
+
+
+<!--        <div class="icon-angle-down">-->
+<!--            <i class="fa-solid fa-chevron-down"></i>-->
+<!--        </div>-->
