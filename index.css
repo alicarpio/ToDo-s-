@@ -37,18 +37,27 @@ li{
     padding: 11px 2px 11px 1px;
 }
 
+li:last-child{
+    border-bottom:1px solid #bababa ;
+}
+
 li label{
     width: 17.2em;
     display: flex;
     align-items: center;
+
 }
+
+
 
 .btn-delete {
     border: none;
+    display:flex;
+    justify-content: flex-end;
     outline: none;
     background-color: white;
     width: 10%;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     overflow: hidden;
 }
 
@@ -60,9 +69,8 @@ li label{
 
 /*input checkbox*/
 .checkbox-style{
-    display: none;
+    accent-color: white;
 }
-
 
 
 .btn-check{
@@ -74,16 +82,28 @@ li label{
     height: 1.4em;
     border:1px solid gray;
     border-radius: 20px;
-    flex-shrink: 0;
 
 }
 
 .btn-check::after{
-    content: '\2714';
-    color: #71c9b8;
+    /*content: '\2714';*/
+    /*color: #71c9b8;*/
 }
-.checkbox-style:checked + .btn-check{
-    text-decoration: line-through   ;
+
+
+.todos-states{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.01em;
+    font-size: 0.6em;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.filters{
+    background-color: white;
+    width: 37.2em;
+    padding: 10px 0 10px 0;
 }
 
 
